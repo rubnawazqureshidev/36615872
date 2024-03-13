@@ -1,0 +1,287 @@
+.imageIcon {
+  height: 602px;
+  width: 514.6px;
+  position: absolute;
+  margin: 0 !important;
+  right: -591.9px;
+  bottom: -32px;
+  object-fit: contain;
+}
+.quickStartSaas {
+  align-self: stretch;
+  position: relative;
+  line-height: 110%;
+  font-weight: 800;
+}
+.meshesIntoYour,
+.noTrainingOr,
+.seeResultsIn {
+  margin: 0;
+}
+.noTrainingOrContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 157.4%;
+  color: var(--color-gray-200);
+}
+.icon {
+  height: 103px;
+  width: 96px;
+  position: relative;
+}
+.costEffective,
+.saves90Cost {
+  align-self: stretch;
+  position: relative;
+  line-height: 110%;
+}
+.saves90Cost {
+  font-size: var(--font-size-3xl);
+  line-height: 157.4%;
+  color: var(--color-gray-200);
+}
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px 0;
+  min-width: 302px;
+  max-width: 100%;
+}
+.cancelSubscription,
+.utilityPagesText {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.utilityPagesText {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0 19px;
+  max-width: 100%;
+  font-size: var(--font-size-11xl);
+}
+.cancelSubscription {
+  flex-direction: column;
+  gap: 30px 0;
+}
+.benefitsSectionText,
+.cancelSubscription,
+.contactText,
+.featuresText {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.benefitsSectionText {
+  flex: 1;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-whitesmoke-600);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: var(--padding-116xl) var(--padding-63xl);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.contactText,
+.featuresText {
+  justify-content: flex-start;
+}
+.contactText {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+}
+.featuresText {
+  width: 743px;
+  flex-direction: column;
+  padding: var(--padding-28xl) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  min-width: 743px;
+}
+.backgroundIcon {
+  height: 750px;
+  width: 288.3px;
+  position: relative;
+}
+.pricingText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  gap: 0 417.1px;
+  max-width: 100%;
+}
+.btnChild {
+  height: 75px;
+  width: 166px;
+  position: relative;
+  border-radius: var(--br-20xl);
+  background-color: var(--color-lavender-100);
+  display: none;
+}
+.goToThe {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-nunito);
+  color: var(--ff-saas);
+  text-align: left;
+  z-index: 1;
+}
+.btn,
+.textNode {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.btn {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-6xl) var(--padding-4xl) var(--padding-6xl)
+    var(--padding-5xl);
+  background-color: var(--color-lavender-100);
+  border-radius: var(--br-20xl);
+  white-space: nowrap;
+}
+.btn:hover {
+  background-color: var(--color-lavender-200);
+}
+.textNode {
+  padding: var(--padding-0) var(--padding-36xl);
+}
+.easeOfUse {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 800;
+  font-family: inherit;
+}
+.easySectionHeader {
+  width: 276px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 36px 0;
+}
+.easySectionHeaderWrapper,
+.integrationsText {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+}
+.integrationsText {
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-171xl-5)
+    var(--padding-xl);
+  gap: 80px 0;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 1225px) {
+  .backgroundIcon,
+  .featuresText {
+    flex: 1;
+  }
+  .pricingText {
+    flex-wrap: wrap;
+    gap: 0 209px;
+  }
+  .integrationsText {
+    gap: 40px 0;
+    padding-bottom: var(--padding-105xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .featuresText {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .quickStartSaas {
+    font-size: var(--font-size-21xl);
+    line-height: 44px;
+  }
+  .costEffective {
+    font-size: var(--font-size-5xl);
+    line-height: 26px;
+  }
+  .utilityPagesText {
+    flex-wrap: wrap;
+  }
+  .benefitsSectionText {
+    padding: var(--padding-69xl) var(--padding-22xl);
+    box-sizing: border-box;
+  }
+  .featuresText {
+    padding-top: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+  .pricingText {
+    gap: 0 104px;
+  }
+  .easeOfUse {
+    font-size: var(--font-size-21xl);
+    line-height: 44px;
+  }
+  .integrationsText {
+    gap: 20px 0;
+    padding-bottom: var(--padding-62xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .quickStartSaas {
+    font-size: var(--font-size-11xl);
+    line-height: 33px;
+  }
+  .costEffective,
+  .noTrainingOrContainer,
+  .saves90Cost {
+    font-size: var(--font-size-lg);
+    line-height: 28px;
+  }
+  .costEffective,
+  .saves90Cost {
+    line-height: 20px;
+  }
+  .saves90Cost {
+    line-height: 28px;
+  }
+  .pricingText {
+    gap: 0 52px;
+  }
+  .textNode {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .easeOfUse {
+    font-size: var(--font-size-11xl);
+    line-height: 33px;
+  }
+  .easySectionHeader {
+    gap: 18px 0;
+  }
+}

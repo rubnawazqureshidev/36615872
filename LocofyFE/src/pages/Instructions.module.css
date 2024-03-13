@@ -1,0 +1,186 @@
+.turigmaai {
+  position: relative;
+  font-weight: 800;
+  mix-blend-mode: normal;
+  white-space: nowrap;
+}
+.callerDashboard {
+  cursor: pointer;
+}
+.callerDashboard,
+.callerFeedback,
+.campaignResearch,
+.managerDashboard {
+  position: relative;
+  font-weight: 800;
+  white-space: nowrap;
+}
+.campaignResearch {
+  cursor: pointer;
+}
+.instructionsFrame,
+.topMenuFrameComponent {
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.topMenuFrameComponent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 0 32px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-500);
+  font-family: var(--font-nunito);
+}
+.instructionsFrame {
+  width: 700px;
+  flex-direction: column;
+  padding: var(--padding-lgi) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.callerFrame,
+.feedbackManagerFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.feedbackManagerFrame {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.callerFrame {
+  width: 1356px;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-27xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-nunito);
+}
+.instructionsChild {
+  width: 1271px;
+  height: 174px;
+  position: relative;
+  background-color: var(--color-gainsboro-500);
+  display: none;
+  max-width: 100%;
+}
+.startCampaign {
+  position: relative;
+}
+.feature,
+.feedbackManagerFrame1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.feature {
+  border-radius: var(--br-20xl);
+  background-color: var(--color-lavender-100);
+  justify-content: flex-start;
+  padding: var(--padding-6xl) var(--padding-27xl);
+  white-space: nowrap;
+  cursor: pointer;
+}
+.feedbackManagerFrame1 {
+  align-self: stretch;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-xl);
+}
+.learnMoreAbout {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-31xl);
+  line-height: 110%;
+  font-weight: 800;
+  color: var(--color-gray-300);
+  text-align: center;
+}
+.callerDashboardFrame {
+  width: 861px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 110px 0;
+  max-width: 100%;
+}
+.instructions,
+.mainInstructionsText {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.mainInstructionsText {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-xl) var(--padding-133xl)
+    var(--padding-2xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--ff-saas);
+  font-family: var(--font-nunito);
+}
+.instructions {
+  width: 100%;
+  position: relative;
+  background-color: var(--dark-theme-gray-0);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-27xl) var(--padding-0) var(--padding-23xl)
+    var(--padding-6xl);
+  gap: 138px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .callerFrame {
+    padding-left: var(--padding-4xl);
+    padding-right: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .instructionsFrame {
+    display: none;
+  }
+  .learnMoreAbout {
+    font-size: var(--font-size-21xl);
+    line-height: 44px;
+  }
+  .callerDashboardFrame {
+    gap: 55px 0;
+  }
+}
+@media screen and (max-width: 750px) {
+  .topMenuFrameComponent {
+    gap: 0 16px;
+  }
+  .instructions {
+    gap: 69px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .learnMoreAbout {
+    font-size: var(--font-size-11xl);
+    line-height: 33px;
+  }
+  .callerDashboardFrame {
+    gap: 27px 0;
+  }
+  .mainInstructionsText {
+    padding-bottom: var(--padding-80xl);
+    box-sizing: border-box;
+  }
+  .instructions {
+    gap: 34px 0;
+  }
+}

@@ -1,0 +1,259 @@
+.login {
+  margin: 0;
+  width: 198px;
+  position: relative;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.resetPasswordButton {
+  width: 828px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.backgoundIcon,
+.background {
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.backgoundIcon {
+  width: 845px;
+  border-radius: var(--br-31xl);
+  max-height: 100%;
+}
+.background {
+  height: 80px;
+  width: 600px;
+  border-radius: var(--br-xl);
+  background-color: var(--dark-theme-gray-0);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.enterYourLogin {
+  width: 227px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-nunito);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  height: 17px;
+  position: relative;
+  color: var(--color-gray-200);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  z-index: 1;
+}
+.background1,
+.button {
+  border-radius: var(--br-xl);
+  background-color: var(--dark-theme-gray-0);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.button {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xl) var(--padding-12xl) var(--padding-13xl);
+  z-index: 1;
+}
+.background1 {
+  height: 80px;
+  width: 600px;
+  position: relative;
+  display: none;
+}
+.enterYourPassword {
+  width: 227px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-nunito);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  height: 17px;
+  position: relative;
+  color: var(--color-gray-200);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  z-index: 1;
+}
+.button1 {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--dark-theme-gray-0);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xl) var(--padding-12xl) var(--padding-13xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.login1 {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-nunito);
+  color: var(--dark-theme-gray-0);
+  text-align: left;
+}
+.button2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-6xl) var(--padding-xl);
+  background-color: var(--ff-saas);
+  width: 327px;
+  border-radius: var(--br-20xl);
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.button2:hover {
+  background-color: var(--color-mediumslateblue-500);
+}
+.button2,
+.loginButton,
+.resetPassBtn {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.resetPassBtn {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-xl);
+  box-sizing: border-box;
+}
+.loginButton {
+  width: 600px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 40.5px 0;
+}
+.resetPassword {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-nunito);
+  color: var(--ff-saas);
+  text-align: left;
+}
+.button3,
+.buttonEnterPswd {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.button3 {
+  cursor: pointer;
+  border: 1px solid var(--color-lightgray);
+  padding: var(--padding-6xl) var(--padding-38xl);
+  background-color: transparent;
+  border-radius: var(--br-20xl);
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.button3:hover {
+  background-color: var(--color-silver-500);
+  border: 1px solid var(--color-silver-400);
+  box-sizing: border-box;
+}
+.buttonEnterPswd {
+  width: 600px;
+  justify-content: center;
+  max-width: 100%;
+}
+.backgoundParent {
+  margin: 0;
+  align-self: stretch;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-77xl) var(--padding-xl) var(--padding-33xl);
+  box-sizing: border-box;
+  gap: 66px 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.enterIDFrame,
+.enterPasswordButton {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.enterPasswordButton {
+  width: 845px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 148px 0;
+}
+.enterIDFrame {
+  width: 1183px;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--font-size-56xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 975px) {
+  .login {
+    font-size: var(--font-size-41xl);
+    line-height: 66px;
+  }
+  .enterPasswordButton {
+    gap: 74px 0;
+  }
+}
+@media screen and (max-width: 700px) {
+  .loginButton {
+    gap: 20px 0;
+  }
+  .backgoundParent {
+    gap: 33px 0;
+    padding-top: var(--padding-43xl);
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .login {
+    font-size: var(--font-size-26xl);
+    line-height: 49px;
+  }
+  .enterYourLogin,
+  .enterYourPassword {
+    font-size: var(--font-size-base);
+  }
+  .login1 {
+    font-size: var(--font-size-lgi);
+  }
+  .backgoundParent {
+    gap: 16px 0;
+  }
+  .enterPasswordButton {
+    gap: 37px 0;
+  }
+}

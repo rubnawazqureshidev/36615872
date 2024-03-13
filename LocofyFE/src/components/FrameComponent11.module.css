@@ -1,0 +1,185 @@
+.blankLine,
+.turigmaUsesA,
+.turigmasAutomatedCallingSc {
+  margin: 0;
+}
+.customerRoleValidation,
+.deflectCustomerObjections,
+.productDifferentiation,
+.productIntroduction,
+.succintCompanyIntroduction,
+.trustBuildingStatements,
+.warmIntroduction {
+  margin-bottom: 0;
+}
+.warmIntroductionTrustBuildi {
+  margin: 0;
+  font-size: inherit;
+  padding-left: var(--padding-24xl);
+}
+.turigmasAutomatedCallingContainer {
+  margin: 0;
+  align-self: stretch;
+  height: 596px;
+  position: relative;
+  font-size: inherit;
+  line-height: 125%;
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+}
+.callingScriptStepsText,
+.turigmasAutomatedCallingSte {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.turigmasAutomatedCallingSte {
+  align-self: stretch;
+  background-color: var(--dark-theme-gray-0);
+  overflow: hidden;
+  align-items: flex-start;
+  padding: var(--padding-41xl) var(--padding-21xl);
+}
+.callingScriptStepsText {
+  width: 1221px;
+  align-items: center;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.blankLine1,
+.turigmaUsesA1,
+.turigmasAutomatedCallingSc1 {
+  margin: 0;
+}
+.customerRoleValidation1,
+.deflectCustomerObjections1,
+.productDifferentiation1,
+.productIntroduction1,
+.succinctCompanyIntroduction,
+.trustBuildingStatements1,
+.warmIntroduction1 {
+  margin-bottom: 0;
+}
+.warmIntroductionTrustBuildi1 {
+  margin: 0;
+  font-size: inherit;
+  padding-left: var(--padding-24xl);
+}
+.turigmasAutomatedCallingContainer1 {
+  margin: 0;
+  align-self: stretch;
+  height: 590px;
+  position: relative;
+  font-size: inherit;
+  line-height: 125%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: inherit;
+}
+.automationSystemFrame,
+.turigmasScriptFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.automationSystemFrame {
+  background-color: var(--dark-theme-gray-0);
+  overflow: hidden;
+  align-items: flex-start;
+  padding: var(--padding-41xl) var(--padding-21xl);
+}
+.turigmasScriptFrame {
+  align-items: center;
+}
+.campaignDesignSubtitleFrame,
+.learnMoreLink {
+  background-color: var(--color-whitesmoke-400);
+  overflow-y: auto;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.learnMoreLink {
+  width: 1301px;
+  padding: var(--padding-25xl) var(--padding-21xl);
+  max-width: 103%;
+}
+.campaignDesignSubtitleFrame {
+  align-self: stretch;
+  height: 807px;
+  padding: var(--padding-25xl) var(--padding-0) var(--padding-0)
+    var(--padding-21xl);
+  gap: 10px 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 1200px) {
+  .campaignDesignSubtitleFrame {
+    padding-top: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .turigmasAutomatedCallingContainer,
+  .turigmasAutomatedCallingContainer1 {
+    font-size: var(--font-size-7xl);
+    line-height: 32px;
+  }
+  .learnMoreLink {
+    padding-top: var(--padding-10xl);
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+  .campaignDesignSubtitleFrame {
+    padding-top: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .turigmasAutomatedCallingSte {
+    padding-top: var(--padding-20xl);
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+  .callingScriptStepsText {
+    gap: 37px 0;
+  }
+  .automationSystemFrame {
+    padding-top: var(--padding-20xl);
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+  .turigmasScriptFrame {
+    gap: 37px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .turigmasAutomatedCallingContainer {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .callingScriptStepsText {
+    gap: 18px 0;
+  }
+  .turigmasAutomatedCallingContainer1 {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .turigmasScriptFrame {
+    gap: 18px 0;
+  }
+  .learnMoreLink {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

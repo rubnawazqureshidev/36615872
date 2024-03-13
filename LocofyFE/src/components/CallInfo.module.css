@@ -1,0 +1,32 @@
+.cancelSubscription {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-0) 4.199999999998909px var(--padding-0)
+    var(--padding-0);
+  box-sizing: border-box;
+}
+.callInfo,
+.cancelSubscription,
+.homeHeader {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.homeHeader {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.callInfo {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-4xl) var(--padding-0)
+    var(--padding-8xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-lato);
+}

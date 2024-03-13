@@ -1,0 +1,116 @@
+.askAnyQuestion,
+.enterFreeText {
+  margin: 0;
+  position: relative;
+  line-height: 110%;
+  font-family: inherit;
+}
+.askAnyQuestion {
+  font-size: inherit;
+  font-weight: 800;
+  display: inline-block;
+  max-width: 100%;
+}
+.enterFreeText {
+  font-size: var(--font-size-13xl);
+  font-weight: 400;
+}
+.freeTextQuestionFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 29px 0;
+  max-width: 100%;
+}
+.pagesFrame {
+  border: 0;
+  background-color: var(--color-gainsboro-400);
+  height: 259px;
+  width: auto;
+  outline: 0;
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-xs);
+}
+.freeTextQuestionFrameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 34px 0;
+  max-width: 100%;
+}
+.runFreeText {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 125%;
+  font-weight: 800;
+  font-family: var(--font-nunito);
+  color: var(--dark-theme-gray-0);
+  text-align: left;
+}
+.copyrightLineNode,
+.freeQueryButton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.freeQueryButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-13xl) var(--padding-28xl);
+  background-color: var(--ff-saas);
+  border-radius: var(--br-21xl);
+  overflow: hidden;
+  flex-direction: row;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.freeQueryButton:hover {
+  background-color: var(--color-mediumslateblue-500);
+}
+.copyrightLineNode {
+  width: 1026.3px;
+  flex-direction: column;
+  gap: 53px 0;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 1050px) {
+  .askAnyQuestion {
+    font-size: var(--font-size-19xl);
+    line-height: 42px;
+  }
+  .enterFreeText {
+    font-size: var(--font-size-7xl);
+    line-height: 28px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .freeTextQuestionFrameParent {
+    gap: 17px 0;
+  }
+  .copyrightLineNode {
+    gap: 26px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .askAnyQuestion {
+    font-size: var(--font-size-10xl);
+    line-height: 32px;
+  }
+  .enterFreeText {
+    font-size: var(--font-size-lgi);
+    line-height: 21px;
+  }
+  .freeQueryButton {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

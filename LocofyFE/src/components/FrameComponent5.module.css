@@ -1,0 +1,338 @@
+.turigmaai {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.logo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  cursor: pointer;
+}
+.aLeadingSilicon {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 157.4%;
+  font-family: var(--font-nunito);
+  color: var(--color-gray-200);
+}
+.mailinfoturigmaai {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 26px 0;
+  max-width: 100%;
+}
+.mailIcon {
+  width: 22px;
+  height: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mailWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs-5) var(--padding-0) var(--padding-0);
+}
+.infoturigmaai {
+  position: relative;
+  line-height: 157.4%;
+  white-space: nowrap;
+}
+.frameTurigmaai {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 17px;
+}
+.phoneCallIcon {
+  width: 22px;
+  height: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.phoneCallWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs-5) var(--padding-0) var(--padding-0);
+}
+.div {
+  flex: 1;
+  position: relative;
+  line-height: 157.4%;
+}
+.appDownloadFrame,
+.frameTurigmaai1,
+.integrationsFrame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameTurigmaai1 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 0 17px;
+}
+.appDownloadFrame,
+.integrationsFrame {
+  flex-direction: column;
+}
+.appDownloadFrame {
+  width: 209px;
+  gap: 18px 0;
+  font-size: var(--font-size-3xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-nunito);
+}
+.integrationsFrame {
+  width: 430.5px;
+  padding: var(--padding-0) var(--padding-45xl-5) var(--padding-0)
+    var(--padding-0);
+  box-sizing: border-box;
+  gap: 36px 0;
+  max-width: calc(100% - 667px);
+  flex-shrink: 0;
+  font-family: var(--font-lato);
+}
+.pages2 {
+  margin: 0;
+  width: 118px;
+  position: relative;
+  font-size: inherit;
+  line-height: 128.18%;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.integrationsLine {
+  width: 180px;
+  height: 1px;
+  position: absolute;
+  margin: 0 !important;
+  top: 61px;
+  right: -21.6px;
+  border-top: 1px solid var(--color-gainsboro-300);
+  box-sizing: border-box;
+}
+.aboutUs,
+.home {
+  margin: 0;
+}
+.integrations1 {
+  font-family: var(--font-nunito);
+  color: var(--ff-saas);
+}
+.contactUs,
+.features,
+.integrations,
+.pricing {
+  margin: 0;
+}
+.homeAboutUsContainer {
+  align-self: stretch;
+  height: 413px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 267.5%;
+  text-transform: capitalize;
+  display: inline-block;
+  color: var(--color-gray-200);
+}
+.pages,
+.pages1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pages1 {
+  width: 159.4px;
+  position: relative;
+  gap: 46px 0;
+  cursor: pointer;
+}
+.pages {
+  width: 223.9px;
+}
+.utilityPages {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 128.18%;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+}
+.cancelSubscription {
+  width: 180px;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gainsboro-300);
+  box-sizing: border-box;
+}
+.account,
+.cancelSubscription1,
+.myProfile,
+.resetPassword {
+  margin: 0;
+}
+.myProfileAccountContainer {
+  align-self: stretch;
+  height: 450px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 267.5%;
+  text-transform: capitalize;
+  color: var(--color-gray-200);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.myProfileAccountResetCance {
+  width: 224px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px 0;
+}
+.content {
+  width: 416px;
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 37.5px);
+  left: -128.3px;
+}
+.appDownload {
+  height: 205px;
+  width: 159.4px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  justify-content: flex-start;
+  padding: var(--padding-46xl) var(--padding-18xl);
+  position: relative;
+}
+.aboutUsFrame,
+.appDownload,
+.homeFrame {
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.aboutUsFrame {
+  height: 497px;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) var(--padding-0);
+  gap: var(--gap-xl);
+  max-width: 100%;
+  cursor: pointer;
+}
+.homeFrame {
+  align-self: stretch;
+  padding: var(--padding-0) var(--padding-lgi) var(--padding-0)
+    var(--padding-lg);
+}
+.homeFrame,
+.pagesFrame,
+.pagesFrameWrapper {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.pagesFrame {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 39px 0;
+}
+.pagesFrameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-8xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 1050px) {
+  .turigmaai {
+    font-size: var(--font-size-5xl);
+  }
+  .integrationsFrame {
+    max-width: calc(100% - 199px);
+  }
+  .pages2 {
+    font-size: var(--font-size-5xl);
+    line-height: 31px;
+  }
+  .pages {
+    display: none;
+  }
+  .utilityPages {
+    font-size: var(--font-size-5xl);
+    line-height: 31px;
+  }
+  .myProfileAccountResetCance {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .pagesFrame {
+    gap: 19px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .turigmaai {
+    font-size: var(--font-size-lg);
+  }
+  .aLeadingSilicon,
+  .div,
+  .infoturigmaai {
+    font-size: var(--font-size-lg);
+    line-height: 28px;
+  }
+  .integrationsFrame {
+    gap: 18px 0;
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .homeAboutUsContainer,
+  .pages2 {
+    font-size: var(--font-size-lg);
+    line-height: 23px;
+  }
+  .homeAboutUsContainer {
+    line-height: 47px;
+  }
+  .myProfileAccountContainer,
+  .utilityPages {
+    font-size: var(--font-size-lg);
+    line-height: 23px;
+  }
+  .myProfileAccountContainer {
+    line-height: 47px;
+  }
+}

@@ -1,0 +1,90 @@
+.turigmaai {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  mix-blend-mode: normal;
+  white-space: nowrap;
+}
+.november,
+.text {
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mid) var(--padding-0) var(--padding-0);
+}
+.text {
+  margin: 0;
+  flex: 1;
+  padding: var(--padding-2xl) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.signIn {
+  position: relative;
+  white-space: nowrap;
+}
+.frameGroup,
+.image,
+.loginButton,
+.textContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.loginButton {
+  border-radius: var(--br-20xl);
+  background-color: var(--dark-theme-gray-0);
+  justify-content: flex-start;
+  padding: var(--padding-6xl) var(--padding-35xl);
+  white-space: nowrap;
+  cursor: pointer;
+  z-index: 1;
+}
+.frameGroup,
+.image,
+.textContainer {
+  max-width: 100%;
+}
+.image {
+  width: 710px;
+  justify-content: flex-start;
+  gap: 0 41px;
+  font-size: var(--font-size-lg);
+}
+.frameGroup,
+.textContainer {
+  box-sizing: border-box;
+}
+.frameGroup {
+  width: 80vw;
+  justify-content: space-between;
+  padding: var(--padding-0) var(--padding-xl) var(--padding-0) var(--padding-0);
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-nunito);
+}
+.textContainer {
+  width: 100vw;
+  justify-content: space-around;
+  padding: var(--padding-0) var(--padding-0) var(--padding-62xl-5)
+    var(--padding-xl);
+}
+@media screen and (max-width: 1050px) {
+  .text {
+    display: none;
+  }
+  .image {
+    width: 207px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .image {
+    gap: 0 20px;
+  }
+}

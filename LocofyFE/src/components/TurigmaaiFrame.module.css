@@ -1,0 +1,176 @@
+.firstNameCheckbox {
+  height: 54px;
+  width: 54px;
+  position: relative;
+  background-color: var(--ff-saas);
+}
+.prospectTitleInCorrect {
+  position: relative;
+  line-height: 125%;
+}
+.checkbox,
+.prospectTitleInCorrectWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.prospectTitleInCorrectWrapper {
+  flex-direction: column;
+  padding: var(--padding-xs-5) var(--padding-0) var(--padding-0);
+}
+.checkbox {
+  flex-direction: row;
+  gap: 0 24px;
+  max-width: 100%;
+}
+.checkboxChild {
+  height: 54px;
+  width: 54px;
+  position: relative;
+  background-color: var(--ff-saas);
+}
+.prospectPhoneNumber {
+  position: relative;
+  line-height: 125%;
+}
+.checkbox1,
+.prospectPhoneNumberWrongWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.prospectPhoneNumberWrongWrapper {
+  flex-direction: column;
+  padding: var(--padding-xs-5) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+}
+.checkbox1 {
+  flex-direction: row;
+  gap: 0 24px;
+}
+.checkboxItem {
+  height: 54px;
+  width: 54px;
+  position: relative;
+  background-color: var(--ff-saas);
+}
+.prospectDidntAnswer {
+  position: relative;
+  line-height: 125%;
+}
+.checkbox2,
+.homeAboutUs,
+.prospectDidntAnswerWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.prospectDidntAnswerWrapper {
+  flex-direction: column;
+  padding: var(--padding-xs-5) var(--padding-0) var(--padding-0);
+}
+.checkbox2,
+.homeAboutUs {
+  flex-direction: row;
+  gap: 0 24px;
+  max-width: 100%;
+}
+.homeAboutUs {
+  width: 508.4px;
+  flex-direction: column;
+  gap: 50px 0;
+}
+.callNotes,
+.thereAreMany {
+  align-self: stretch;
+  position: relative;
+}
+.callNotes {
+  margin: 0;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 800;
+  font-family: inherit;
+}
+.thereAreMany {
+  font-size: var(--font-size-6xl);
+  line-height: 157.4%;
+  color: var(--color-gray-200);
+}
+.callNotesText,
+.turigmaaiFrame,
+.utilityPages {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.callNotesText {
+  width: 508.4px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 44px 0;
+  font-size: var(--font-size-11xl);
+}
+.turigmaaiFrame,
+.utilityPages {
+  flex-direction: row;
+}
+.utilityPages {
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.turigmaaiFrame {
+  width: 1275.7px;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-mini);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 1050px) {
+  .callNotes {
+    font-size: var(--font-size-5xl);
+    line-height: 26px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .checkbox1 {
+    flex-wrap: wrap;
+  }
+  .callNotesText {
+    gap: 22px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .prospectTitleInCorrect {
+    font-size: var(--font-size-xl);
+    line-height: 25px;
+  }
+  .checkbox {
+    flex-wrap: wrap;
+  }
+  .prospectDidntAnswer,
+  .prospectPhoneNumber {
+    font-size: var(--font-size-xl);
+    line-height: 25px;
+  }
+  .checkbox2 {
+    flex-wrap: wrap;
+  }
+  .homeAboutUs {
+    gap: 25px 0;
+  }
+  .callNotes {
+    font-size: var(--font-size-lg);
+    line-height: 20px;
+  }
+  .thereAreMany {
+    font-size: var(--font-size-xl);
+    line-height: 31px;
+  }
+}

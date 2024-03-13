@@ -1,0 +1,129 @@
+.campaignSettings {
+  flex: 1;
+  position: relative;
+  line-height: 125%;
+  font-weight: 800;
+  display: inline-block;
+  min-width: 396px;
+  max-width: 100%;
+}
+.frameChild {
+  align-self: stretch;
+  height: 16.3px;
+  position: relative;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-silver-200);
+}
+.campaignSettingsParent,
+.frameWrapper,
+.rectangleWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangleWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: 23.300000000000185px var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  min-width: 396px;
+}
+.campaignSettingsParent,
+.frameWrapper {
+  flex-direction: row;
+}
+.campaignSettingsParent {
+  flex: 1;
+  flex-wrap: wrap;
+  gap: 0 10px;
+}
+.frameWrapper {
+  align-self: stretch;
+  padding: var(--padding-0) var(--padding-10xs) var(--padding-0)
+    var(--padding-11xs);
+  box-sizing: border-box;
+}
+.campaignSettingsRectangleChild {
+  position: absolute;
+  top: 21px;
+  left: 5px;
+  background-color: var(--dark-theme-gray-0);
+  width: 1231px;
+  height: 555px;
+  overflow: hidden;
+}
+.image25Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1234px;
+  height: 576px;
+  object-fit: cover;
+  z-index: 1;
+}
+.campaignSettingsRectangle {
+  align-self: stretch;
+  height: 576px;
+  position: relative;
+}
+.frameParent,
+.instructionsInner {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  background-color: var(--ff-saas);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-7xl) 20.59999999999991px var(--padding-7xl)
+    var(--padding-lg);
+}
+.instructionsInner {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-43xl) var(--padding-39xl);
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--dark-theme-gray-0);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 1200px) {
+  .instructionsInner {
+    padding-left: var(--padding-12xl);
+    padding-right: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .campaignSettings {
+    font-size: var(--font-size-21xl);
+    line-height: 50px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .campaignSettings,
+  .rectangleWrapper {
+    min-width: 100%;
+  }
+  .frameParent {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .instructionsInner {
+    padding-bottom: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .campaignSettings {
+    font-size: var(--font-size-11xl);
+    line-height: 37px;
+  }
+}

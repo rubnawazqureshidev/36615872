@@ -1,0 +1,393 @@
+.turigmaai {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  mix-blend-mode: normal;
+  white-space: nowrap;
+}
+.callerDashboard {
+  cursor: pointer;
+}
+.callerDashboard,
+.callerFeedback,
+.campaignResearch,
+.managerDashboard {
+  position: relative;
+  font-weight: 800;
+  white-space: nowrap;
+}
+.campaignResearch {
+  cursor: pointer;
+}
+.topMenuFrameComponent,
+.turigmaaiFrame {
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.topMenuFrameComponent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 0 32px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-500);
+  font-family: var(--font-nunito);
+}
+.turigmaaiFrame {
+  width: 700px;
+  flex-direction: column;
+  padding: var(--padding-lgi) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.callerDashboardFrame,
+.subtitleFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.callerDashboardFrame {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.subtitleFrame {
+  width: 1356px;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-27xl) var(--padding-29xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-nunito);
+}
+.blankLine,
+.turigmaTheWorlds1stEnter,
+.welcomeToPresalesAiAutomat {
+  margin: 0;
+}
+.turigmaaiGeneratesAutomated1 {
+  margin-bottom: 0;
+}
+.turigmaaiGeneratesAutomated {
+  margin: 0;
+  font-size: inherit;
+  padding-left: var(--padding-24xl);
+}
+.welcomeToPresalesContainer {
+  margin: 0;
+  align-self: stretch;
+  height: 460px;
+  position: relative;
+  font-size: inherit;
+  line-height: 125%;
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+}
+.frameWelcometextframe,
+.welcometextText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameWelcometextframe {
+  background-color: var(--dark-theme-gray-0);
+  overflow: hidden;
+  align-items: flex-start;
+  padding: var(--padding-41xl) var(--padding-21xl);
+}
+.welcometextText {
+  align-items: center;
+}
+.enterpriseAutomator,
+.instructionsFrame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.instructionsFrame {
+  flex: 1;
+  background-color: var(--color-whitesmoke-400);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-25xl) var(--padding-21xl);
+}
+.enterpriseAutomator {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-0) var(--padding-12xs) var(--padding-0)
+    var(--padding-0);
+}
+.blankLine1,
+.builtForEnterprises {
+  margin: 0;
+}
+.callersPreparedCallingScri,
+.researchTeamEliminateCostl,
+.turigmaIsrAutomatesEachOf1 {
+  margin-bottom: 0;
+}
+.turigmaIsrAutomatesEachOf {
+  margin: 0;
+  font-size: inherit;
+  padding-left: var(--padding-24xl);
+}
+.builtForEnterprisesContainer {
+  margin: 0;
+  align-self: stretch;
+  height: 460px;
+  position: relative;
+  font-size: inherit;
+  line-height: 125%;
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+}
+.automatedBusiness {
+  align-self: stretch;
+  background-color: var(--dark-theme-gray-0);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-41xl) var(--padding-21xl);
+}
+.builtForBusiness {
+  align-self: stretch;
+  align-items: center;
+}
+.builtForBusiness,
+.callingScriptFrame,
+.enterpriseFrame {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.enterpriseFrame {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke-400);
+  overflow: hidden;
+  align-items: flex-start;
+  padding: var(--padding-25xl) var(--padding-21xl);
+}
+.callingScriptFrame {
+  flex: 1;
+  align-items: flex-end;
+  gap: 40px 0;
+  max-width: 100%;
+}
+.automationTurigma,
+.learnMore {
+  font-family: var(--font-nunito);
+  text-align: left;
+}
+.automationTurigma {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-27xl) 89px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+}
+.learnMore {
+  position: relative;
+  font-size: var(--font-size-lg);
+  color: var(--ff-saas);
+}
+.campaignDesign,
+.feature,
+.learnMoreSection {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.feature {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-6xl) var(--padding-27xl);
+  background-color: var(--color-lavender-100);
+  border-radius: var(--br-20xl);
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.feature:hover {
+  background-color: var(--color-lavender-200);
+}
+.campaignDesign,
+.learnMoreSection {
+  justify-content: center;
+  max-width: 100%;
+}
+.campaignDesign {
+  width: 665px;
+  padding: var(--padding-0) var(--padding-xl) var(--padding-12xl);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.learnMoreSection {
+  align-self: stretch;
+}
+.learnMoreAbout {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 800;
+  font-family: inherit;
+}
+.contactFrame,
+.downloadAppFrame {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.downloadAppFrame {
+  width: 861px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 40px 0;
+}
+.contactFrame {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-xl) var(--padding-29xl)
+    var(--padding-2xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-nunito);
+}
+.about,
+.lineSeparator {
+  position: relative;
+  box-sizing: border-box;
+}
+.lineSeparator {
+  align-self: stretch;
+  height: 1px;
+  border-top: 1px solid var(--color-gainsboro-300);
+}
+.about {
+  width: 100%;
+  background-color: var(--dark-theme-gray-0);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-27xl) var(--padding-0) var(--padding-63xl)
+    var(--padding-6xl);
+  gap: 90px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .automationTurigma,
+  .subtitleFrame {
+    padding-left: var(--padding-4xl);
+    padding-right: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+  .automationTurigma {
+    padding-bottom: var(--padding-19xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .turigmaaiFrame {
+    display: none;
+  }
+  .builtForEnterprisesContainer,
+  .welcomeToPresalesContainer {
+    font-size: var(--font-size-7xl);
+    line-height: 32px;
+  }
+  .learnMoreAbout {
+    font-size: var(--font-size-21xl);
+    line-height: 44px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .topMenuFrameComponent {
+    gap: 0 16px;
+  }
+  .frameWelcometextframe {
+    padding-top: var(--padding-20xl);
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+  .welcometextText {
+    gap: 37px 0;
+  }
+  .automatedBusiness,
+  .instructionsFrame {
+    padding-top: var(--padding-10xl);
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+  .automatedBusiness {
+    padding-top: var(--padding-20xl);
+    padding-bottom: var(--padding-20xl);
+  }
+  .builtForBusiness {
+    gap: 37px 0;
+  }
+  .enterpriseFrame {
+    padding-top: var(--padding-10xl);
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+  .callingScriptFrame {
+    gap: 20px 0;
+  }
+  .automationTurigma {
+    padding-bottom: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .about {
+    gap: 45px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .welcomeToPresalesContainer {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .welcometextText {
+    gap: 18px 0;
+  }
+  .builtForEnterprisesContainer {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .builtForBusiness {
+    gap: 18px 0;
+  }
+  .learnMoreAbout {
+    font-size: var(--font-size-11xl);
+    line-height: 33px;
+  }
+  .downloadAppFrame {
+    gap: 20px 0;
+  }
+  .about {
+    gap: 22px 0;
+  }
+}

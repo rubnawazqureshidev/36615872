@@ -1,0 +1,54 @@
+.turigmaai {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  mix-blend-mode: normal;
+  white-space: nowrap;
+}
+.subheaderSection {
+  margin: 0;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.contactInfoSection,
+.inputFieldContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.contactInfoSection {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.inputFieldContainer {
+  width: 1381px;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-40xl) var(--padding-35xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 1200px) {
+  .inputFieldContainer {
+    padding-left: var(--padding-10xl);
+    padding-right: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .subheaderSection {
+    display: none;
+  }
+}

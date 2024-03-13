@@ -1,0 +1,212 @@
+.selectCallerNumber {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.previousButtonIcon {
+  align-self: stretch;
+  width: 99px;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+  min-height: 46px;
+}
+.next {
+  position: relative;
+}
+.iceBreaker {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-0) var(--padding-0);
+}
+.rectangleChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-mediumslateblue-200);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.iocnIcon {
+  position: absolute;
+  top: 11px;
+  left: 17px;
+  width: 18.2px;
+  height: 23.1px;
+  z-index: 1;
+}
+.rectangle {
+  height: 46px;
+  width: 48px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-mediumslateblue-200);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+}
+.icebreakercell,
+.itemCellItemCellItemCell {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icebreakercell {
+  gap: 0 16px;
+}
+.searchInputBoundingBox {
+  align-self: stretch;
+  height: 23px;
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--color-gainsboro-400);
+}
+.freetextqueryfield {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  min-width: 129px;
+}
+.select {
+  position: relative;
+}
+.searchButton {
+  border-radius: var(--br-20xl);
+  background-color: var(--ff-saas);
+  flex-direction: row;
+  padding: var(--padding-12xs) var(--padding-7xl);
+}
+.askquestionbutton,
+.casestudiescell,
+.searchButton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.askquestionbutton {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 0 6px;
+}
+.casestudiescell {
+  width: 308px;
+  flex-direction: column;
+  padding: var(--padding-0) var(--padding-0) var(--padding-5xs-5);
+  box-sizing: border-box;
+  font-size: var(--font-size-lg);
+  color: var(--dark-theme-gray-0);
+}
+.callerSelectorFrame,
+.columnheaders {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.callerSelectorFrame {
+  border: 1px solid var(--color-black);
+  flex-direction: row;
+  align-items: flex-end;
+  padding: var(--padding-xl) var(--padding-25xl) var(--padding-19xl);
+  gap: 0 153px;
+  font-size: var(--font-size-xs);
+}
+.columnheaders {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 23px 0;
+  max-width: 100%;
+}
+.callerNumberSelected {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 400;
+  font-family: inherit;
+}
+.integrations {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-3xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-13xl);
+}
+.framewithheaderandcolumns,
+.integrations,
+.lastcallanalytics {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.framewithheaderandcolumns {
+  width: 809px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 33px 0;
+}
+.lastcallanalytics {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-xl) var(--padding-23xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 1050px) {
+  .selectCallerNumber {
+    font-size: var(--font-size-19xl);
+    line-height: 42px;
+  }
+  .callerSelectorFrame {
+    flex-wrap: wrap;
+  }
+  .callerNumberSelected {
+    font-size: var(--font-size-7xl);
+    line-height: 28px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .callerSelectorFrame {
+    gap: 0 76px;
+    padding-left: var(--padding-3xl);
+    padding-right: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .selectCallerNumber {
+    font-size: var(--font-size-10xl);
+    line-height: 32px;
+  }
+  .askquestionbutton {
+    flex-wrap: wrap;
+  }
+  .callerSelectorFrame {
+    gap: 0 38px;
+  }
+  .callerNumberSelected {
+    font-size: var(--font-size-lgi);
+    line-height: 21px;
+  }
+  .framewithheaderandcolumns {
+    gap: 16px 0;
+  }
+}

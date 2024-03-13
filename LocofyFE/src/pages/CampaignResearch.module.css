@@ -1,0 +1,403 @@
+.turigmaai {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  mix-blend-mode: normal;
+  white-space: nowrap;
+}
+.fRAMETopmenuframecomponen {
+  margin: 0;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.fRAMETurigmaaiLabel,
+.frameCampaignResearch {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.fRAMETurigmaaiLabel {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameCampaignResearch {
+  width: 1320px;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-9xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-nunito);
+}
+.campaignResearch {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 800;
+  font-family: inherit;
+}
+.pageSubtitle {
+  width: 318px;
+  position: relative;
+  line-height: 157.4%;
+  display: inline-block;
+}
+.framePagesubtitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-xl);
+  font-size: var(--font-size-6xl);
+  color: var(--color-gray-200);
+}
+.rectangleUploadDocuments,
+.worldsLeadingAutomatedPresa {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangleUploadDocuments {
+  flex: 1;
+  flex-direction: column;
+  gap: 16px 0;
+}
+.worldsLeadingAutomatedPresa {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-0) var(--padding-11xl) var(--padding-23xl)
+    var(--padding-12xl-5);
+  box-sizing: border-box;
+  text-align: center;
+  color: var(--color-gray-300);
+}
+.turigmaAiAutomated {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-29xl);
+  line-height: 110%;
+  font-weight: 800;
+  font-family: inherit;
+}
+.worlds1stFully {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 110%;
+}
+.automatedTurigmaiAIResearc {
+  width: 763px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 59px 0;
+  max-width: 100%;
+}
+.campaignResearchFrame {
+  width: 1339px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-xl) var(--padding-22xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-56xl);
+  color: var(--color-black);
+  font-family: var(--font-nunito);
+}
+.uploadCampaignFile {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gainsboro-500);
+}
+.uploadSellSideDocuments {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.rectangleUploadDocumentsLab {
+  align-self: stretch;
+  height: 174px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-22xl) var(--padding-62xl);
+  box-sizing: border-box;
+  position: relative;
+}
+.featureStartAnalysis,
+.frameUtilityPages {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameUtilityPages {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 15px 0;
+}
+.featureStartAnalysis {
+  width: 1303px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-base) 193px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-nunito);
+}
+.uploadCampaignSetup {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.uploadCampaignSetupFileExParent {
+  width: 1139px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 55px 0;
+  max-width: 100%;
+}
+.campaignresearchInner {
+  width: 1329px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-xl) 237px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-nunito);
+}
+.startAnalysis {
+  margin: 0;
+  width: 329px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.feature,
+.featureWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.feature {
+  width: 521px;
+  border-radius: var(--br-20xl);
+  background-color: var(--color-lavender-100);
+  padding: 39.5px var(--padding-xl);
+}
+.featureWrapper {
+  width: 1303px;
+  padding: var(--padding-0) var(--padding-xl) var(--padding-29xl);
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--ff-saas);
+  font-family: var(--font-nunito);
+}
+.analysisLine {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gainsboro-300);
+  box-sizing: border-box;
+}
+.frameSeries1,
+.frameSeries2 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameSeries2 {
+  width: 1322.8px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-6xs);
+  box-sizing: border-box;
+}
+.frameSeries1 {
+  width: 1347px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px 0;
+}
+.campaignresearch,
+.frameSeries,
+.line {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.frameSeries {
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0)
+    var(--padding-16xl);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.campaignresearch,
+.line {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.line {
+  align-self: stretch;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) var(--padding-0);
+  gap: 64px 0;
+  max-width: 100%;
+}
+.campaignresearch {
+  width: 100%;
+  position: relative;
+  background-color: var(--dark-theme-gray-0);
+  overflow: hidden;
+  padding: var(--padding-27xl) var(--padding-0) 87px var(--padding-24xl);
+  gap: 138px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .fRAMETopmenuframecomponen {
+    display: none;
+  }
+  .campaignResearch {
+    font-size: var(--font-size-41xl);
+    line-height: 66px;
+  }
+  .turigmaAiAutomated {
+    font-size: var(--font-size-19xl);
+    line-height: 42px;
+  }
+  .uploadSellSideDocuments {
+    font-size: var(--font-size-7xl);
+    line-height: 28px;
+  }
+  .featureStartAnalysis {
+    padding-bottom: 125px;
+    box-sizing: border-box;
+  }
+  .uploadCampaignSetup {
+    font-size: var(--font-size-7xl);
+    line-height: 28px;
+  }
+  .startAnalysis {
+    font-size: var(--font-size-19xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangleUploadDocumentsLab {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .uploadCampaignSetupFileExParent {
+    gap: 27px 0;
+  }
+  .campaignresearchInner {
+    padding-bottom: var(--padding-135xl);
+    box-sizing: border-box;
+  }
+  .line {
+    gap: 32px 0;
+  }
+  .campaignresearch {
+    gap: 69px 0;
+    padding-left: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .campaignResearch {
+    font-size: var(--font-size-26xl);
+    line-height: 49px;
+  }
+  .pageSubtitle {
+    font-size: var(--font-size-xl);
+    line-height: 31px;
+  }
+  .turigmaAiAutomated {
+    font-size: var(--font-size-10xl);
+    line-height: 32px;
+  }
+  .worlds1stFully {
+    font-size: var(--font-size-base);
+    line-height: 18px;
+  }
+  .automatedTurigmaiAIResearc {
+    gap: 29px 0;
+  }
+  .campaignResearchFrame {
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .uploadSellSideDocuments {
+    font-size: var(--font-size-lgi);
+    line-height: 21px;
+  }
+  .featureStartAnalysis {
+    padding-bottom: var(--padding-62xl);
+    box-sizing: border-box;
+  }
+  .uploadCampaignSetup {
+    font-size: var(--font-size-lgi);
+    line-height: 21px;
+  }
+  .startAnalysis {
+    font-size: var(--font-size-10xl);
+  }
+  .line {
+    gap: 16px 0;
+  }
+  .campaignresearch {
+    gap: 34px 0;
+  }
+}

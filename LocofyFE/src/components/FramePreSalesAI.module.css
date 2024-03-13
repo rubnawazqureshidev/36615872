@@ -1,0 +1,130 @@
+.turigmaai {
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+  mix-blend-mode: normal;
+  white-space: nowrap;
+}
+.home,
+.presalesAi,
+.turigmaai {
+  position: relative;
+  font-weight: 800;
+}
+.presalesAi {
+  width: 98px;
+  display: inline-block;
+  white-space: nowrap;
+}
+.fAQsTextbox,
+.notepadTextbox {
+  width: 692px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.notepadTextbox {
+  width: 700px;
+  padding: var(--padding-4xs) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  margin: 0 0 0-631px;
+}
+.features {
+  position: relative;
+  font-weight: 800;
+}
+.fAQsTextbox1 {
+  width: 733px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  margin-left: -631px;
+}
+.benefits {
+  position: relative;
+  font-weight: 800;
+}
+.fAQsTextbox2 {
+  width: 727px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  margin-left: -631px;
+}
+.blog {
+  position: relative;
+  font-weight: 800;
+  margin-left: -631px;
+}
+.callScriptTextbox {
+  flex: 1;
+  flex-direction: row;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+}
+.callScriptTextbox,
+.firstNamePhoneFrame,
+.previousNextButtons {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.previousNextButtons {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 0 32px;
+}
+.firstNamePhoneFrame {
+  width: 841px;
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+  color: var(--dark-theme-gray-0);
+}
+.framePreSalesAI,
+.topmenucomponent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.topmenucomponent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.framePreSalesAI {
+  width: 1356px;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-27xl) var(--padding-29xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 1200px) {
+  .framePreSalesAI {
+    padding-left: var(--padding-4xl);
+    padding-right: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .callScriptTextbox {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .previousNextButtons {
+    gap: 0 16px;
+  }
+}

@@ -1,0 +1,630 @@
+.instructions {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 800;
+  font-family: inherit;
+}
+.freeTextQueryArea {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-xl);
+}
+.blankLine,
+.itShowsPerformance,
+.thisDashboardProvides {
+  margin: 0;
+}
+.thisDashboardProvidesContainer {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 110%;
+}
+.frameTurigmaaiLogo,
+.pagesFrame {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameTurigmaaiLogo {
+  width: 600px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 22px 0;
+}
+.pagesFrame {
+  width: 990px;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-xl);
+  box-sizing: border-box;
+}
+.averageCampaignScore,
+.category {
+  position: relative;
+  line-height: 110%;
+  display: inline-block;
+  max-width: 100%;
+}
+.averageCampaignScore {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.category {
+  flex: 1;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inter);
+  color: var(--color-blue);
+  text-align: left;
+}
+.headerCell {
+  width: 515px;
+  height: 50px;
+  background-color: var(--color-whitesmoke-400);
+  border-bottom: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-5xl);
+}
+.iceBreaker {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 110%;
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-gray-300);
+  text-align: left;
+  max-width: 100%;
+}
+.itemCell {
+  width: 515px;
+  background-color: var(--dark-theme-gray-0);
+  border-bottom: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-5xl);
+  min-height: 64px;
+}
+.warmIntro {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 110%;
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-gray-300);
+  text-align: left;
+  max-width: 100%;
+}
+.itemCell1 {
+  width: 515px;
+  background-color: var(--dark-theme-gray-0);
+  border-bottom: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-5xl);
+  min-height: 64px;
+}
+.selfIntro {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 110%;
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-gray-300);
+  text-align: left;
+  max-width: 100%;
+}
+.itemCell2 {
+  width: 515px;
+  background-color: var(--dark-theme-gray-0);
+  border-bottom: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-5xl);
+  min-height: 64px;
+}
+.purposeOfCall {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 110%;
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-gray-300);
+  text-align: left;
+  max-width: 100%;
+}
+.itemCell3 {
+  width: 515px;
+  background-color: var(--dark-theme-gray-0);
+  border-bottom: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-5xl);
+  min-height: 64px;
+}
+.prospectChallenge {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 110%;
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-gray-300);
+  text-align: left;
+  max-width: 100%;
+}
+.itemCell4 {
+  width: 515px;
+  background-color: var(--dark-theme-gray-0);
+  border-bottom: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-5xl);
+  min-height: 64px;
+}
+.prospectCxoReference {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 110%;
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-gray-300);
+  text-align: left;
+  max-width: 100%;
+}
+.itemCell5 {
+  width: 515px;
+  background-color: var(--dark-theme-gray-0);
+  border-bottom: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-5xl);
+  min-height: 64px;
+}
+.keyBenefits {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 110%;
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-gray-300);
+  text-align: left;
+  max-width: 100%;
+}
+.itemCell6 {
+  width: 515px;
+  background-color: var(--dark-theme-gray-0);
+  border-bottom: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-5xl);
+  min-height: 64px;
+}
+.caseStudies {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 110%;
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-gray-300);
+  text-align: left;
+  max-width: 100%;
+}
+.column,
+.itemCell7 {
+  display: flex;
+  justify-content: flex-start;
+}
+.itemCell7 {
+  width: 515px;
+  background-color: var(--dark-theme-gray-0);
+  border-bottom: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-xs) var(--padding-5xl);
+  min-height: 64px;
+}
+.column {
+  flex: 1;
+  overflow-x: auto;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 334px;
+  max-width: 100%;
+}
+.averageScore {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 110%;
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-blue);
+  text-align: center;
+  max-width: 100%;
+}
+.headerCell1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-5xl);
+  background-color: var(--color-whitesmoke-400);
+  width: 516px;
+  height: 50px;
+  border-bottom: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.headerCell1:hover {
+  background-color: var(--color-gainsboro-400);
+}
+.freeQueryButton {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 110%;
+  font-family: var(--font-inter);
+  color: var(--color-plum);
+  text-align: center;
+  display: inline-block;
+  max-width: 100%;
+}
+.itemCell8 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-5xl);
+  background-color: var(--dark-theme-gray-0);
+  width: 516px;
+  border-bottom: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 64px;
+}
+.itemCell15:hover,
+.itemCell8:hover {
+  background-color: var(--color-gainsboro-200);
+}
+.p {
+  margin: 0;
+}
+.turigmaaiFrame1 {
+  height: 44px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 110%;
+  font-family: var(--font-inter);
+  color: var(--color-plum);
+  text-align: center;
+  display: inline-block;
+  max-width: 100%;
+}
+.itemCell9 {
+  width: 516px;
+  height: 68px;
+  background-color: var(--dark-theme-gray-0);
+  border-bottom: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-5xl);
+}
+.homeFrame {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 110%;
+  font-family: var(--font-inter);
+  color: var(--color-plum);
+  text-align: center;
+  display: inline-block;
+  max-width: 100%;
+}
+.itemCell10 {
+  width: 516px;
+  background-color: var(--dark-theme-gray-0);
+  border-bottom: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-5xl);
+  min-height: 64px;
+}
+.integrationsFrame {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 110%;
+  font-family: var(--font-inter);
+  color: var(--color-plum);
+  text-align: center;
+  display: inline-block;
+  max-width: 100%;
+}
+.itemCell11 {
+  width: 516px;
+  background-color: var(--dark-theme-gray-0);
+  border-bottom: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-5xl);
+  min-height: 64px;
+}
+.featuresFrame {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 110%;
+  font-family: var(--font-inter);
+  color: var(--color-plum);
+  text-align: center;
+  display: inline-block;
+  max-width: 100%;
+}
+.itemCell12 {
+  width: 516px;
+  background-color: var(--dark-theme-gray-0);
+  border-bottom: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-5xl);
+  min-height: 64px;
+}
+.appDownloadFrame {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 110%;
+  font-family: var(--font-inter);
+  color: var(--color-plum);
+  text-align: center;
+  display: inline-block;
+  max-width: 100%;
+}
+.itemCell13 {
+  width: 516px;
+  background-color: var(--dark-theme-gray-0);
+  border-bottom: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-5xl);
+  min-height: 64px;
+}
+.p1 {
+  margin: 0;
+}
+.copyrightFrame {
+  height: 44px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 110%;
+  font-family: var(--font-inter);
+  color: var(--color-plum);
+  text-align: center;
+  display: inline-block;
+  max-width: 100%;
+}
+.itemCell14 {
+  width: 516px;
+  height: 68px;
+  background-color: var(--dark-theme-gray-0);
+  border-bottom: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-5xl);
+}
+.campaignFrame {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 110%;
+  font-family: var(--font-inter);
+  color: var(--color-plum);
+  text-align: center;
+  display: inline-block;
+  max-width: 100%;
+}
+.itemCell15 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-5xl);
+  background-color: var(--dark-theme-gray-0);
+  width: 516px;
+  border-bottom: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 64px;
+}
+.column1,
+.lastCallAnalyticsTable {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.column1 {
+  flex: 1;
+  overflow-x: auto;
+  flex-direction: column;
+  min-width: 334px;
+}
+.lastCallAnalyticsTable {
+  margin: 0;
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.integratedCampaignScoreBy {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 63px 0;
+  max-width: 100%;
+  font-size: var(--font-size-13xl);
+}
+.logoFrame,
+.turigmaaiFrame {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.turigmaaiFrame {
+  width: 1029px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 118.5px 0;
+}
+.logoFrame {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-xl) var(--padding-79xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 1050px) {
+  .instructions {
+    font-size: var(--font-size-19xl);
+    line-height: 42px;
+  }
+  .averageCampaignScore {
+    font-size: var(--font-size-7xl);
+    line-height: 28px;
+  }
+  .integratedCampaignScoreBy {
+    gap: 31px 0;
+  }
+  .turigmaaiFrame {
+    gap: 59px 0;
+  }
+  .logoFrame {
+    padding-bottom: var(--padding-45xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .integratedCampaignScoreBy {
+    gap: 16px 0;
+  }
+  .turigmaaiFrame {
+    gap: 30px 0;
+  }
+  .logoFrame {
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .instructions {
+    font-size: var(--font-size-10xl);
+    line-height: 32px;
+  }
+  .thisDashboardProvidesContainer {
+    font-size: var(--font-size-base);
+    line-height: 18px;
+  }
+  .averageCampaignScore,
+  .category {
+    font-size: var(--font-size-lgi);
+    line-height: 21px;
+  }
+  .caseStudies,
+  .iceBreaker,
+  .keyBenefits,
+  .prospectChallenge,
+  .prospectCxoReference,
+  .purposeOfCall,
+  .selfIntro,
+  .warmIntro {
+    font-size: var(--font-size-base);
+    line-height: 18px;
+  }
+  .averageScore {
+    font-size: var(--font-size-lgi);
+    line-height: 21px;
+  }
+  .appDownloadFrame,
+  .campaignFrame,
+  .copyrightFrame,
+  .featuresFrame,
+  .freeQueryButton,
+  .homeFrame,
+  .integrationsFrame,
+  .turigmaaiFrame1 {
+    font-size: var(--font-size-base);
+    line-height: 18px;
+  }
+}

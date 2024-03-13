@@ -1,0 +1,89 @@
+.bg {
+  height: 68.5px;
+  width: 143px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-300);
+  display: none;
+}
+.frame,
+.mail,
+.turigmaai {
+  position: absolute;
+  top: 10.4px;
+  left: 0.3px;
+  border-radius: var(--br-xl);
+  background-color: var(--dark-theme-gray-0);
+  width: 58.9px;
+  height: 9.5px;
+  z-index: 1;
+}
+.mail,
+.turigmaai {
+  top: 0;
+  width: 37.3px;
+  height: 6.9px;
+}
+.mail {
+  top: 28.2px;
+  left: 0;
+  background-color: var(--color-lightgreen);
+  width: 31.1px;
+  height: 7.7px;
+}
+.tag {
+  align-self: stretch;
+  height: 35.9px;
+  position: relative;
+}
+.marketingAnalysis {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 6.699999999999818px var(--padding-0) var(--padding-0);
+}
+.bg1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-skyblue);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.utilityPages {
+  position: absolute;
+  top: 17.1px;
+  left: 9.8px;
+  font-weight: 800;
+  display: inline-block;
+  width: 30.3px;
+  height: 16.5px;
+  z-index: 2;
+}
+.infoturigmaai {
+  height: 51.1px;
+  width: 51.1px;
+  position: relative;
+}
+.image {
+  width: 143px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-300);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10.600000000000364px 7.700000000000045px 6.799999999999272px
+    16.100000000000136px;
+  box-sizing: border-box;
+  gap: var(--gap-4xs-9);
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-300);
+  font-family: var(--font-nunito);
+}

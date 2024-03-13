@@ -1,0 +1,114 @@
+.buySideTab {
+  flex: 1;
+  position: relative;
+  line-height: 125%;
+  font-weight: 800;
+  display: inline-block;
+  min-width: 388px;
+  max-width: 100%;
+}
+.frameChild {
+  align-self: stretch;
+  height: 16.3px;
+  position: relative;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-silver-200);
+}
+.buySideTabParent,
+.rectangleWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangleWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: 23.300000000000185px var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  min-width: 388px;
+}
+.buySideTabParent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0 10px;
+}
+.image24Icon {
+  width: 1205px;
+  height: 555px;
+  position: relative;
+  object-fit: cover;
+  max-width: 109%;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.image24Wrapper {
+  align-self: stretch;
+  height: 555px;
+  background-color: var(--dark-theme-gray-0);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-409xl) var(--padding-29xl) var(--padding-80xl);
+}
+.frameParent,
+.image24Wrapper,
+.instructionsInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  background-color: var(--ff-saas);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-7xl) var(--padding-4xl) 13.199999999999818px;
+  gap: 21px 0;
+}
+.instructionsInner {
+  width: 1375px;
+  flex-direction: row;
+  padding: var(--padding-0) var(--padding-43xl) 25.800000000000185px;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--dark-theme-gray-0);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 1200px) {
+  .image24Wrapper {
+    padding: var(--padding-259xl) var(--padding-5xl) var(--padding-45xl);
+    box-sizing: border-box;
+  }
+  .instructionsInner {
+    padding-left: var(--padding-12xl);
+    padding-right: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .buySideTab {
+    font-size: var(--font-size-21xl);
+    line-height: 50px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .buySideTab,
+  .rectangleWrapper {
+    min-width: 100%;
+  }
+  .image24Wrapper {
+    padding-top: var(--padding-162xl);
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .buySideTab {
+    font-size: var(--font-size-11xl);
+    line-height: 37px;
+  }
+}

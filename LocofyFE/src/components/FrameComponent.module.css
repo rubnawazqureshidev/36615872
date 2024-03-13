@@ -1,0 +1,67 @@
+.dentist,
+.frame {
+  position: relative;
+}
+.frame {
+  height: 16px;
+  width: 14.9px;
+  border-radius: 50%;
+  background-color: var(--dark-theme-gray-0);
+  border: 0 solid var(--color-gold-200);
+  box-sizing: border-box;
+}
+.dentist {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  font-weight: 400;
+  font-family: inherit;
+}
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 10px;
+}
+.frame1 {
+  flex: 1;
+  position: relative;
+  font-weight: 900;
+}
+.frameParent,
+.text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0)
+    24.899999999999864px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-nunito);
+}
+.frameParent {
+  width: 106.9px;
+  flex-direction: column;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-silver-300);
+  font-family: var(--font-calistoga);
+}
+@media screen and (max-width: 750px) {
+  .frame1 {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .dentist {
+    font-size: var(--font-size-base);
+  }
+  .frame1 {
+    font-size: var(--font-size-lg);
+  }
+}

@@ -1,0 +1,141 @@
+.callerFeedback {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 800;
+  font-family: inherit;
+}
+.pageSubtitle {
+  width: 318px;
+  position: relative;
+  line-height: 157.4%;
+  display: inline-block;
+}
+.label,
+.pageSubtitleWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.pageSubtitleWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-xl);
+  font-size: var(--font-size-6xl);
+  color: var(--color-gray-200);
+}
+.label {
+  width: 569.6px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 16px 0;
+  max-width: 100%;
+}
+.instructions {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 800;
+  font-family: inherit;
+}
+.copyrightsFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-xl);
+}
+.blankLine,
+.itShowsPerformance,
+.thisDashboardProvides {
+  margin: 0;
+}
+.thisDashboardProvidesContainer {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 110%;
+}
+.text {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px 0;
+}
+.text,
+.textInput,
+.textWrapper {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.textWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-0) 10.300000000001091px var(--padding-0)
+    var(--padding-0);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+}
+.textInput {
+  width: 610.3px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 86.5px 0;
+}
+.secondaryButton {
+  width: 1360.3px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-xl) var(--padding-lgi-5);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-56xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 1050px) {
+  .callerFeedback {
+    font-size: var(--font-size-41xl);
+    line-height: 66px;
+  }
+  .instructions {
+    font-size: var(--font-size-19xl);
+    line-height: 42px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .textInput {
+    gap: 43px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .callerFeedback {
+    font-size: var(--font-size-26xl);
+    line-height: 49px;
+  }
+  .pageSubtitle {
+    font-size: var(--font-size-xl);
+    line-height: 31px;
+  }
+  .instructions {
+    font-size: var(--font-size-10xl);
+    line-height: 32px;
+  }
+  .thisDashboardProvidesContainer {
+    font-size: var(--font-size-base);
+    line-height: 18px;
+  }
+  .textInput {
+    gap: 22px 0;
+  }
+}

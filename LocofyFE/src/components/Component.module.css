@@ -1,0 +1,96 @@
+.image26Icon {
+  height: 192px;
+  width: 204px;
+  position: relative;
+  object-fit: cover;
+}
+.frameChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-21xl);
+  background-color: var(--ff-saas);
+}
+.uploadDocuments {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 125%;
+  font-weight: 800;
+  font-family: inherit;
+  z-index: 1;
+}
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-13xl) var(--padding-43xl) var(--padding-14xl)
+    var(--padding-53xl);
+  position: relative;
+}
+.component2,
+.frameWrapper,
+.image26Parent {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameWrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-14xl-5) var(--padding-0) var(--padding-0);
+}
+.component2,
+.image26Parent {
+  flex-direction: row;
+}
+.image26Parent {
+  width: 949px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: var(--padding-0) var(--padding-9xs) var(--padding-0) var(--padding-0);
+  gap: var(--gap-xl);
+}
+.component2 {
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro-400);
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-81xl) var(--padding-xl);
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--dark-theme-gray-0);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 1050px) {
+  .uploadDocuments {
+    font-size: var(--font-size-19xl);
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangleParent {
+    padding-left: var(--padding-17xl);
+    padding-right: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .uploadDocuments {
+    font-size: var(--font-size-10xl);
+    line-height: 36px;
+  }
+  .component2 {
+    padding-top: var(--padding-46xl);
+    padding-bottom: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+}

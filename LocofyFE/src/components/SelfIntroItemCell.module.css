@@ -1,0 +1,32 @@
+.callerDashboard {
+  cursor: pointer;
+}
+.callerDashboard,
+.callerFeedback,
+.campaignResearch,
+.managerDashboard {
+  position: relative;
+  font-weight: 800;
+  white-space: nowrap;
+}
+.campaignResearch {
+  cursor: pointer;
+}
+.selfIntroItemCell {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 32px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-500);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 750px) {
+  .selfIntroItemCell {
+    gap: 0 16px;
+  }
+}

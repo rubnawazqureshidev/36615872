@@ -1,0 +1,231 @@
+.firstName,
+.phone {
+  align-self: stretch;
+  position: relative;
+  line-height: 125%;
+}
+.companyLocationFrame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px 0;
+  min-width: 135px;
+  max-width: 180px;
+}
+.email,
+.lastName {
+  align-self: stretch;
+  position: relative;
+  line-height: 125%;
+}
+.companyLocationFrame1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px 0;
+  min-width: 135px;
+  max-width: 180px;
+}
+.company,
+.location {
+  align-self: stretch;
+  position: relative;
+  line-height: 125%;
+}
+.companyLocationFrame2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px 0;
+  min-width: 135px;
+  max-width: 180px;
+}
+.campaignSNo,
+.title {
+  align-self: stretch;
+  position: relative;
+  line-height: 125%;
+}
+.companyLocationFrame3 {
+  flex: 1;
+  flex-direction: column;
+  gap: 20px 0;
+  min-width: 135px;
+  max-width: 180px;
+}
+.companyLocationFrame3,
+.lastNameEmailFrame,
+.turigmaaiLabel {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.lastNameEmailFrame {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 0 1px;
+}
+.turigmaaiLabel {
+  width: 723px;
+  flex-direction: column;
+  padding: var(--padding-mini-5) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.previousButtonIcon {
+  align-self: stretch;
+  width: 99px;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+  min-height: 46px;
+}
+.next {
+  position: relative;
+}
+.callScript {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-0) var(--padding-0);
+}
+.iconframeChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-mediumslateblue-200);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.iocnIcon {
+  position: absolute;
+  top: 11px;
+  left: 17px;
+  width: 18.2px;
+  height: 23.1px;
+  z-index: 1;
+}
+.iconframe {
+  height: 46px;
+  width: 48px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-mediumslateblue-200);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+}
+.iocn,
+.previousbuttonFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.previousbuttonFrame {
+  gap: 0 16px;
+}
+.searchInputBoundingBox {
+  align-self: stretch;
+  height: 23px;
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--color-gainsboro-400);
+}
+.turigmaaiFrame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  min-width: 129px;
+}
+.search {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-nunito);
+  color: var(--dark-theme-gray-0);
+  text-align: left;
+}
+.searchButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-12xs) var(--padding-4xl-5);
+  background-color: var(--ff-saas);
+  border-radius: var(--br-20xl);
+  flex-direction: row;
+  align-items: flex-start;
+}
+.searchButton:hover {
+  background-color: var(--color-mediumslateblue-500);
+}
+.emailText,
+.line,
+.searchButton {
+  display: flex;
+  justify-content: flex-start;
+}
+.line {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0 6px;
+}
+.emailText {
+  width: 308px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 26px 0;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+}
+.frameFirstNamePhone {
+  width: 1289px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-0) var(--padding-9xs) var(--padding-0)
+    var(--padding-10xs);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 750px) {
+  .lastNameEmailFrame {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .campaignSNo,
+  .company,
+  .email,
+  .firstName,
+  .lastName,
+  .location,
+  .phone,
+  .title {
+    font-size: var(--font-size-base);
+    line-height: 20px;
+  }
+  .line {
+    flex-wrap: wrap;
+  }
+}

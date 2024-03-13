@@ -1,0 +1,428 @@
+.aLeadingSilicon,
+.turigmaai {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+}
+.turigmaai {
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+}
+.aLeadingSilicon {
+  font-size: var(--font-size-3xl);
+  line-height: 157.4%;
+  font-weight: 400;
+  font-family: var(--font-nunito);
+  color: var(--color-gray-200);
+}
+.turigmaaiContact {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 26px 0;
+}
+.mailIcon {
+  width: 22px;
+  height: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mailInfoturigmaai {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs-5) var(--padding-0) var(--padding-0);
+}
+.infoturigmaai {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 157.4%;
+  font-weight: 400;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.mailPhonecall {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 17px;
+}
+.phoneCallIcon {
+  width: 22px;
+  height: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.phoneCallWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs-5) var(--padding-0) var(--padding-0);
+}
+.div {
+  flex: 1;
+  position: relative;
+  line-height: 157.4%;
+}
+.contacSupport,
+.mailPhonecall1,
+.tagMarketingFrame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mailPhonecall1 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 0 17px;
+}
+.contacSupport,
+.tagMarketingFrame {
+  flex-direction: column;
+}
+.contacSupport {
+  width: 209px;
+  gap: 18px 0;
+  font-size: var(--font-size-3xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-nunito);
+}
+.tagMarketingFrame {
+  width: 379px;
+  padding: var(--padding-0) 13.000000000000227px var(--padding-0)
+    var(--padding-0);
+  box-sizing: border-box;
+  gap: 36px 0;
+  max-width: 100%;
+}
+.pages {
+  width: 118px;
+  position: relative;
+  line-height: 128.18%;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.appDownloadContent {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gainsboro-300);
+  box-sizing: border-box;
+}
+.myProfileAccountFrame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 23px 0;
+  min-width: 117px;
+}
+.utilityPages {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 128.18%;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+}
+.aboutUsFrame {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gainsboro-300);
+  box-sizing: border-box;
+}
+.aboutUsIntegrationsFrame,
+.utilityFrame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.utilityFrame {
+  flex: 1;
+  flex-direction: column;
+  gap: 24px 0;
+  min-width: 120px;
+}
+.aboutUsIntegrationsFrame {
+  width: 397px;
+  flex-direction: row;
+  gap: 0 33px;
+  max-width: 100%;
+}
+.aboutUs,
+.home {
+  margin: 0;
+}
+.integrations1 {
+  font-family: var(--font-nunito);
+  color: var(--ff-saas);
+}
+.contactUs,
+.features,
+.integrations,
+.pricing {
+  margin: 0;
+}
+.homeAboutUsContainer {
+  margin: 0;
+  height: 413px;
+  width: 160px;
+  position: relative;
+  font-size: inherit;
+  line-height: 267.5%;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+  min-width: 160px;
+  font-family: inherit;
+}
+.account,
+.cancelSubscription,
+.myProfile,
+.resetPassword {
+  margin: 0;
+}
+.myProfileAccountContainer {
+  margin: 0;
+  align-self: stretch;
+  height: 450px;
+  position: relative;
+  font-size: inherit;
+  line-height: 267.5%;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.featuresFrame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  min-width: 146px;
+}
+.integrationsFrame {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 0 53px;
+  font-size: var(--font-size-3xl);
+  color: var(--color-gray-200);
+}
+.appDownload,
+.homeFrame,
+.integrationsFrame,
+.tagAnalysisImage {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.homeFrame {
+  width: 437px;
+  flex-direction: column;
+  gap: 22px 0;
+  max-width: 100%;
+  font-family: var(--font-nunito);
+}
+.appDownload,
+.tagAnalysisImage {
+  flex-direction: row;
+}
+.appDownload {
+  border: 0;
+  background-color: var(--color-whitesmoke-100);
+  height: 205px;
+  width: 239.8px;
+  outline: 0;
+  border-radius: var(--br-31xl);
+  padding: var(--padding-46xl) var(--padding-18xl);
+  box-sizing: border-box;
+  min-width: 156px;
+}
+.tagAnalysisImage {
+  align-self: stretch;
+  flex-wrap: wrap;
+  gap: 0 50px;
+  max-width: 100%;
+}
+.copyrightTurigmaai,
+.h2,
+.h21,
+.h22,
+.h23 {
+  margin: 0;
+  position: relative;
+  font-weight: 400;
+  font-family: inherit;
+}
+.copyrightTurigmaai {
+  width: 416px;
+  font-size: inherit;
+  line-height: 157.4%;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.h2,
+.h21,
+.h22,
+.h23 {
+  letter-spacing: 0.06em;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+.h2,
+.h21,
+.h22 {
+  font-size: inherit;
+}
+.h23 {
+  font-size: var(--font-size-lgi);
+}
+.copyrightFrameInner,
+.parent {
+  display: flex;
+  align-items: flex-start;
+}
+.parent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.copyrightFrameInner {
+  width: 138px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-300);
+  font-family: var(--font-font-awesome-5-brands);
+}
+.copyrightFrame {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.cancelSubscriptionFrame {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-0) var(--padding-34xl) var(--padding-0)
+    52.80000000000018px;
+  box-sizing: border-box;
+  margin-top: -35px;
+  font-size: var(--font-size-3xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-nunito);
+}
+.cancelSubscriptionFrame,
+.mainMenu,
+.submenu {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.submenu {
+  flex: 1;
+  flex-direction: column;
+}
+.mainMenu {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-0) var(--padding-29xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-lato);
+}
+@media screen and (max-width: 1225px) {
+  .cancelSubscriptionFrame {
+    padding-left: var(--padding-7xl);
+    padding-right: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .pages,
+  .turigmaai,
+  .utilityPages {
+    font-size: var(--font-size-5xl);
+  }
+  .pages,
+  .utilityPages {
+    line-height: 31px;
+  }
+  .tagAnalysisImage {
+    gap: 0 25px;
+  }
+  .copyrightFrame {
+    flex-wrap: wrap;
+  }
+  .mainMenu {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .turigmaai {
+    font-size: var(--font-size-lg);
+  }
+  .aLeadingSilicon,
+  .div,
+  .infoturigmaai {
+    font-size: var(--font-size-lg);
+    line-height: 28px;
+  }
+  .tagMarketingFrame {
+    gap: 18px 0;
+  }
+  .pages,
+  .utilityPages {
+    font-size: var(--font-size-lg);
+    line-height: 23px;
+  }
+  .aboutUsIntegrationsFrame {
+    flex-wrap: wrap;
+    gap: 0 16px;
+  }
+  .homeAboutUsContainer {
+    flex: 1;
+  }
+  .homeAboutUsContainer,
+  .myProfileAccountContainer {
+    font-size: var(--font-size-lg);
+    line-height: 47px;
+  }
+  .integrationsFrame {
+    flex-wrap: wrap;
+    gap: 0 26px;
+  }
+  .copyrightTurigmaai {
+    font-size: var(--font-size-lg);
+    line-height: 28px;
+  }
+}
