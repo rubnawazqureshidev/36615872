@@ -1,0 +1,58 @@
+datasource db {
+    provider = "postgresql"
+    url      = "postgresql://postgres:1234@localhost:5432/turigma?schema=public"
+}
+
+generator client {
+    provider = "prisma-client-js"
+}
+
+model user {
+    index      Int          @id @default(autoincrement())
+    email      String       @unique
+    password   String
+    assessment assessment[]
+    createdAt  DateTime     @default(now()) @db.Timestamptz(3)
+}
+
+model assessment {
+    index     Int      @id @default(autoincrement())
+    user      user     @relation(fields: [userId], references: [index])
+    userId    Int
+    q1        String
+    a1        Boolean
+    q2        String
+    a2        Boolean
+    q3        String
+    a3        Boolean
+    note      String
+    createdAt DateTime @default(now()) @db.Timestamptz(3)
+}
+
+model list {
+    index       Int     @id @default(autoincrement())
+    s_no        Int?
+    linkedin    String?
+    f_name      String?
+    l_name      String?
+    company     String?
+    title       String?
+    location    String?
+    email       String?
+    phone       String?
+    industry    String?
+    function    String?
+    q1          String?
+    a1          String?
+    q2          String?
+    a2          String?
+    q3          String?
+    a3          String?
+    q4          String?
+    a4          String?
+    q5          String?
+    a5          String?
+    q6          String?
+    a6          String?
+    call_script String?
+}

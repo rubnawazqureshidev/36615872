@@ -1,0 +1,30 @@
+-- CreateTable
+CREATE TABLE "list" (
+    "index" SERIAL NOT NULL,
+    "s_no" INTEGER,
+    "linkedin" TEXT,
+    "f_name" TEXT,
+    "l_name" TEXT,
+    "company" TEXT,
+    "title" TEXT,
+    "location" TEXT,
+    "email" TEXT,
+    "phone" TEXT,
+    "industry" TEXT,
+    "function" TEXT,
+    "q1" TEXT,
+    "a1" TEXT,
+    "q2" TEXT,
+    "a2" TEXT,
+    "q3" TEXT,
+    "a3" TEXT,
+    "q4" TEXT,
+    "a4" TEXT,
+    "q5" TEXT,
+    "a5" TEXT,
+    "q6" TEXT,
+    "a6" TEXT,
+    "call_script" TEXT,
+
+    CONSTRAINT "list_pkey" PRIMARY KEY ("index")
+);
