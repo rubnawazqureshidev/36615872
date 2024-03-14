@@ -18,7 +18,7 @@ const EnterIDFrame: FunctionComponent = () => {
 
       let response = await axios.post("http://localhost:4000/login", payload);
       localStorage.setItem("accessToken", response.data);
-      window.location.href = "/";
+      window.location.href = "/callerdashboard";
     } catch (error) {
       alert("Invalid Login");
     }
