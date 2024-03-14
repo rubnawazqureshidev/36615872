@@ -1,5 +1,5 @@
 import { FunctionComponent, useCallback, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import styles from "./EnterIDFrame.module.css";
 import axios from "axios";
 
@@ -62,6 +62,7 @@ const EnterIDFrame: FunctionComponent = () => {
               </button>
             </div>
           </div>
+
           <div className={styles.buttonEnterPswd}>
             <button
               className={styles.button3}
@@ -70,6 +71,13 @@ const EnterIDFrame: FunctionComponent = () => {
               <b className={styles.resetPassword}>Reset Password</b>
             </button>
           </div>
+
+          <p style={{ fontSize: 14 }}>
+            If you don't have account,{" "}
+            <Link to="/create-account" style={{ color: "blue" }}>
+              Create Account
+            </Link>
+          </p>
         </form>
       </div>
     </section>
