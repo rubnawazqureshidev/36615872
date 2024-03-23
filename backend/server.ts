@@ -69,26 +69,10 @@ async function main() {
 
     let accessToken = await jwt.sign(result, "rubnawaz");
 
-    res.cookie("token", accessToken, {
-      httpOnly: true,
-      secure: true,
-      maxAge: 3600000,
-    });
-
     res.json(accessToken);
   });
 
-  app.get("/me", isAuthenicate, async (req: any, res: Response) => {
-    try {
-      const result: any = req.user as any;
-
-      res.send(result);
-    } catch (error) {
-      res.send(error);
-    }
-  });
-
-  app.get("/faqs", async (req: Request, res: Response) => {
+  app.get("/records", async (req: Request, res: Response) => {
     const result: any = await prisma.list.findMany({});
     res.send(result);
   });
